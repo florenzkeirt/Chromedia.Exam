@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Roboto;
+  src: url(https://fonts.google.com/specimen/Roboto?query=robo);
+}
+
+body {
+  font-family: Roboto !important;
+  padding: 20px;
+}
+
+.main-card {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  max-width: 650px;
+  max-height: 380px;
+}
+
+.main-card .left-image img {
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right top;
+     object-position: right top;
+}
+
+.main-card .card-body {
+  max-width: 280px;
+  padding: 0;
+}
+
+.main-card .card-body .title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.main-card .card-body .body {
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.main-card .card-body .btn-learn {
+  background-color: #4e9407;
+}
+/*# sourceMappingURL=styles.css.map */

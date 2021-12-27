@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.google.com/specimen/Roboto?query=robo);
+}
+
+ body {
+     font-family: Roboto !important;
+     padding: 20px;
+ }
+
+ .main-card {
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     max-width: 650px;
+     max-height: 380px;
+
+     .left-image {
+         img {
+            height: 380px;
+            object-fit: cover;
+            object-position: right top;
+         }
+     }
+
+     .card-body {
+        max-width: 280px;
+        padding: 0;
+
+         .title {
+             font-size: 1.2rem;
+             font-weight: 600;
+         }
+
+         .body {
+             font-size: .9rem;
+             font-weight: 400;
+         }
+
+         .btn-learn {
+             background-color: #4e9407;
+         }
+     }
+ }
